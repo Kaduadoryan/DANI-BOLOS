@@ -69,7 +69,7 @@ export const products: Product[] = [
   {
     id: '7',
     name: 'Bolo de Pote Prestígio com Ninho',
-    price: 13.00,
+    price: 15.00,
     image: prestigioNinhoPote,
     category: 'bolo-de-pote',
     flavor: 'prestigio-ninho',
@@ -79,7 +79,7 @@ export const products: Product[] = [
   {
     id: '8',
     name: 'Bolo de Pote Chocolate',
-    price: 13.00,
+    price: 15.00,
     image: chocolatePote,
     category: 'bolo-de-pote',
     flavor: 'chocolate',
