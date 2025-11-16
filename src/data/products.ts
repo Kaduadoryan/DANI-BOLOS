@@ -15,7 +15,7 @@ export const products: Product[] = [
   {
     id: '1',
     name: 'Bolo de Chocolate',
-    price: 45.00,
+    price: 40.00,
     image: chocolateCake,
     category: 'com-cobertura',
     flavor: 'chocolate',
@@ -35,7 +35,7 @@ export const products: Product[] = [
   {
     id: '3',
     name: 'Red Velvet',
-    price: 35.00,
+    price: 40.00,
     image: redVelvetCake,
     category: 'com-cobertura',
     flavor: 'red-velvet',
@@ -53,7 +53,7 @@ export const products: Product[] = [
   {
     id: '5',
     name: 'Bolo de Fubá',
-    price: 30.00,
+    price: 25.00,
     image: strawberryCake,
     category: 'sem-cobertura',
     flavor: 'Fubá ',
@@ -62,7 +62,7 @@ export const products: Product[] = [
   {
     id: '6',
     name: 'Bolo de Coco',
-    price: 35.00,
+    price: 40.00,
     image: coconutCake,
     category: 'com-cobertura',
     flavor: 'coco',
