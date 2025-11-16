@@ -99,12 +99,14 @@ const Index = () => {
               Desde 2020, criamos bolos artesanais que combinam sabor excepcional com
               apresentação impecável. Cada receita é cuidadosamente desenvolvida com
               ingredientes premium e muito carinho.
+              Meu compromisso é transformar momentos em memórias doces e
+              inesquecíveis.
             </p>
             <p className="text-lg text-muted-foreground leading-relaxed">
-              Nosso compromisso é transformar momentos ordinários em memórias doces e
-              inesquecíveis. Fazemos encomendas personalizadas para casamentos,
-              aniversários, eventos corporativos e qualquer ocasião que mereça ser
-              celebrada com sabor!
+              
+
+              
+          
             </p>
           </div>
         </div>
@@ -120,7 +122,7 @@ const Index = () => {
             Tem alguma dúvida ou quer fazer uma encomenda especial? Fale com a gente!
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center pt-4">
-            <a href="https://wa.me/5567984159574" target="_blank" rel="noopener noreferrer" className="inline-flex items-center justify-center px-8 py-4 bg-success hover:bg-success/90 text-success-foreground font-semibold rounded-lg transition-all hover-lift">
+            <a href="https://wa.me/5567996074340" target="_blank" rel="noopener noreferrer" className="inline-flex items-center justify-center px-8 py-4 bg-success hover:bg-success/90 text-success-foreground font-semibold rounded-lg transition-all hover-lift">
               💬 Chamar no WhatsApp
             </a>
           </div>

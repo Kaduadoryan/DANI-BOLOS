@@ -35,19 +35,20 @@ export const Footer = () => {
           <div className="space-y-4">
             <h3 className="text-lg font-semibold">Contato</h3>
             <div className="space-y-3">
-              <a href="https://wa.me/5567984159574" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 text-muted-foreground hover:text-primary transition-colors">
+              <a href="https://wa.me/5567996074340" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 text-muted-foreground hover:text-primary transition-colors">
                 <Phone className="w-5 h-5" />
-                <span>(67) 98415-9574</span>
+                <span>(67) 99607-4340</span>
               </a>
               <a href="mailto:contato@danibolos.com.br" className="flex items-center gap-2 text-muted-foreground hover:text-primary transition-colors">
                 <Mail className="w-5 h-5" />
                 <span>contato@danibolos.com.br</span>
               </a>
               
-              <div className="flex gap-4 pt-2">
-                <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-primary transition-colors" aria-label="Instagram">
-                  <Instagram className="w-6 h-6" />
+              <div className="danibolos flex items-center gap-3">
+                <a href="https://www.instagram.com/danibolosedoces5" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-primary transition-colors" aria-label="Instagram">
+                  <Instagram className="w-5 h-5" />
                 </a>
+                <span className="text-muted-foreground font-medium">danibolos</span>
                 <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-primary transition-colors" aria-label="Facebook">
                   
                 </a>

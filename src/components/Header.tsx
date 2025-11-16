@@ -11,9 +11,9 @@ interface HeaderProps {
 export const Header = ({ cartItemCount, onCartClick, onMenuClick }: HeaderProps) => {
   return (
     <header className="fixed top-0 left-0 right-0 z-50 bg-card border-b border-border">
-      <div className="container mx-auto px-4 h-20 flex items-center justify-between">
+      <div className="container mx-auto px-4 h-20 flex items-center relative">
         {/* Logo */}
-        <div className="flex items-center gap-2">
+        <div className="flex items-center gap-2 z-20">
           <button
             onClick={onMenuClick}
             className="md:hidden p-2 hover:bg-muted rounded-lg transition-colors"
@@ -26,8 +26,8 @@ export const Header = ({ cartItemCount, onCartClick, onMenuClick }: HeaderProps)
           </h1>
         </div>
 
-        {/* Desktop Navigation */}
-        <nav className="hidden md:flex items-center gap-6">
+        {/* Desktop Navigation (centered) */}
+        <nav className="hidden md:flex items-center gap-6 absolute left-1/2 transform -translate-x-1/2">
           <a href="#inicio" className="text-foreground hover:text-primary transition-colors font-medium">
             Início
           </a>
@@ -42,8 +42,8 @@ export const Header = ({ cartItemCount, onCartClick, onMenuClick }: HeaderProps)
           </a>
         </nav>
 
-        {/* Actions */}
-        <div className="flex items-center gap-2">
+        {/* Actions (right) */}
+        <div className="flex items-center gap-2 ml-auto z-20">
           {/*<Button
             variant="ghost"
             size="icon"

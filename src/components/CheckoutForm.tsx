@@ -93,7 +93,8 @@ export const CheckoutForm = ({ items, isOpen, onClose }: CheckoutFormProps) => {
       `📮 CEP: ${data.cep}` +
       (data.observations ? `\n\n*OBSERVAÇÕES:*\n${data.observations}` : '');
 
-    const whatsappUrl = `https://wa.me/5567984159574?text=${encodeURIComponent(message)}`;
+  // Use WhatsApp number for Dani Bolos (area code 67)
+  const whatsappUrl = `https://wa.me/5567996074340?text=${encodeURIComponent(message)}`;
     
     // Open WhatsApp
     window.open(whatsappUrl, '_blank');

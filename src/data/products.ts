@@ -5,9 +5,11 @@ import redVelvetCake from '@/assets/red-velvet-cake.png';
 import lemonCake from '@/assets/lemon-cake.png';
 import strawberryCake from '@/assets/strawberry-cake.png';
 import coconutCake from '@/assets/coconut-cake.png';
-import prestigioNinhoPote from '@/assets/prestigio-ninho-pote.png';
-import chocolatePote from '@/assets/chocolate-pote.png';
-import abacaxiPote from '@/assets/abacaxi-pote.png';
+import prestigioNinhoPote from '@/assets/prestigio-ninho-pote1.jpeg';
+import chocolatePote from '@/assets/chocolate-pote1.jpeg';
+import abacaxiPote from '@/assets/abacaxi-pote1.jpeg';
+import ninhomorango from '@/assets/ninho-morango.jpeg';
+
 
 export const products: Product[] = [
   {
@@ -69,7 +71,7 @@ export const products: Product[] = [
   {
     id: '7',
     name: 'Bolo de Pote Prestígio com Ninho',
-    price: 15.00,
+    price: 13.00,
     image: prestigioNinhoPote,
     category: 'bolo-de-pote',
     flavor: 'prestigio-ninho',
@@ -79,7 +81,7 @@ export const products: Product[] = [
   {
     id: '8',
     name: 'Bolo de Pote Chocolate',
-    price: 15.00,
+    price: 13.00,
     image: chocolatePote,
     category: 'bolo-de-pote',
     flavor: 'chocolate',
@@ -88,10 +90,19 @@ export const products: Product[] = [
   {
     id: '9',
     name: 'Bolo de Pote Abacaxi',
-    price: 15.00,
+    price: 13.00,
     image: abacaxiPote,
     category: 'bolo-de-pote',
     flavor: 'abacaxi',
     description: 'Bolo de baunilha com creme de abacaxi e pedaços da fruta. Refrescante e tropical.',
   },
+  {
+    id: '10',
+    name: 'Bolo de Pote Ninho com Morango',
+    price: 13.00,
+    image: ninhomorango,
+    category: 'bolo-de-pote',
+    flavor: 'ninho-morango',
+    description: 'Delicioso bolo de pote com creme de leite Ninho e calda de morango. Perfeito para sobremesas individuais.',
+  }
 ];
