@@ -25,7 +25,7 @@ export const products: Product[] = [
   {
     id: '2',
     name: 'Bolo de Cenoura',
-    price: 40.00,
+    price: 38.00,
     image: carrotCake,
     category: 'com-cobertura',
     flavor: 'cenoura',
